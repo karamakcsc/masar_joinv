@@ -45,7 +45,7 @@ def general_si(name, is_return , posting_date , is_pos):
     elif (int(is_return)) == 1:
         sales = general_sales_return_invoice(name , is_pos)
    
-    ##### Create  new QR code data 
+    ######Create  new QR code data 
     qr_code_data = frappe.new_doc('JO Fawtara Data')  
     
     qr_code_data.sales_invoice = name
