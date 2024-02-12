@@ -1,0 +1,190 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:sales_invoice",
+ "creation": "2024-01-11 15:37:36.398251",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_invoice",
+  "column_break_r5jq",
+  "posting_date",
+  "einv_results_section",
+  "einv_status",
+  "warnings",
+  "column_break_dknn",
+  "errors",
+  "einv_info_section",
+  "info_type",
+  "info_status",
+  "info_message",
+  "column_break_6z1d",
+  "info_code",
+  "info_category",
+  "qr_code_data_section",
+  "qr_code_status",
+  "singed_invoice",
+  "column_break_v1io",
+  "qr_code",
+  "number",
+  "inv_uuid",
+  "qr_code_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "label": "Sales Invoice ",
+   "options": "Sales Invoice",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_r5jq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "einv_results_section",
+   "fieldtype": "Section Break",
+   "label": "EINV Results "
+  },
+  {
+   "fieldname": "einv_status",
+   "fieldtype": "Data",
+   "label": "EINV Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "warnings",
+   "fieldtype": "Data",
+   "label": "Warnings",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_dknn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "errors",
+   "fieldtype": "Data",
+   "label": "Errors",
+   "read_only": 1
+  },
+  {
+   "fieldname": "einv_info_section",
+   "fieldtype": "Section Break",
+   "label": "EINV Info"
+  },
+  {
+   "fieldname": "info_type",
+   "fieldtype": "Data",
+   "label": "Info Type ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "info_status",
+   "fieldtype": "Data",
+   "label": "Info Status ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "info_message",
+   "fieldtype": "Data",
+   "label": "Info Message ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_6z1d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "info_code",
+   "fieldtype": "Data",
+   "label": "Info Code ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "info_category",
+   "fieldtype": "Data",
+   "label": "Info Category ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qr_code_data_section",
+   "fieldtype": "Section Break",
+   "label": "QR Code Data"
+  },
+  {
+   "fieldname": "qr_code_status",
+   "fieldtype": "Data",
+   "label": " QR Code Status ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "singed_invoice",
+   "fieldtype": "Small Text",
+   "label": "Singed Invoice",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_v1io",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "qr_code",
+   "fieldtype": "Small Text",
+   "label": "QR Code ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Data",
+   "label": "Number ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "inv_uuid",
+   "fieldtype": "Data",
+   "label": "INV UUID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qr_code_image",
+   "fieldtype": "Image",
+   "label": "QR Code Image",
+   "options": "qr_code"
+  }
+ ],
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-15 12:45:25.351407",
+ "modified_by": "Administrator",
+ "module": "JO E-Invoice",
+ "name": "JO Fawtara Data",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
